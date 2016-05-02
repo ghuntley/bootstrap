@@ -6,6 +6,7 @@ using System.Reactive.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ReactiveSearch.Services.Api;
+using ReactiveSearch.Services.NetworkConnectivity;
 using ReactiveSearch.Services.Search;
 using ReactiveSearch.Services.State;
 using ReactiveSearch.Utility;
@@ -17,10 +18,14 @@ namespace ReactiveSearch.ViewModels
     public class SearchViewModel : ReactiveObject
     {
         private readonly ISearchService _searchService;
+        private readonly INetworkConnectivityService _networkConnectivityService;
 
-        public SearchViewModel(ISearchService searchService)
+        public SearchViewModel(INetworkConnectivityService networkConnectivityService, ISearchService searchService)
         {
+            Ensure.ArgumentNotNull(networkConnectivityService, nameof(networkConnectivityService));
             Ensure.ArgumentNotNull(searchService, nameof(searchService));
+
+            _networkConnectivityService = networkConnectivityService;
             _searchService = searchService;
 
             SearchResults = new ReactiveList<Unit>();
