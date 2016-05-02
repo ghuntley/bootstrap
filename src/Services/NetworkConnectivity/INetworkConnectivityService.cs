@@ -11,6 +11,6 @@ namespace ReactiveSearch.Services.NetworkConnectivity
     {
         IObservable<bool> IsInternetConnectivityAvailable();
         IObservable<bool> IsReachable(string host, int port = 80, int msTimeout = 5000);
-        IObservable<IEnumerable<ConnectionType>> Connectivity();
+        IObservable<IEnumerable<ConnectionType>> InternetConnectivity();
     }
 }
