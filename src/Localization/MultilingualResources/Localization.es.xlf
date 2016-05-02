@@ -1,43 +1,43 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="de" target-language="es" original="LOCALIZATION/VIEWMODELS/SEARCHVIEWMODELRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+  <file datatype="xml" source-language="de" target-language="es" original="NCRUNCHTEMP_A86261D3-2DCC-4C06-8BD8-236C9227A277/VIEWMODELS/SEARCHVIEWMODEL/SEARCHVIEWMODELRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
       <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
     </header>
     <body>
-      <group id="LOCALIZATION/VIEWMODELS/SEARCHVIEWMODELRESOURCES.RESX" datatype="resx" />
+      <group id="NCRUNCHTEMP_A86261D3-2DCC-4C06-8BD8-236C9227A277/VIEWMODELS/SEARCHVIEWMODEL/SEARCHVIEWMODELRESOURCES.RESX" datatype="resx" />
     </body>
   </file>
-  <file datatype="xml" source-language="de" target-language="es" original="LOCALIZATION/COMMONRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+  <file datatype="xml" source-language="de" target-language="es" original="NCRUNCHTEMP_A86261D3-2DCC-4C06-8BD8-236C9227A277/PLATFORMS/UWPRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
       <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
     </header>
     <body>
-      <group id="LOCALIZATION/COMMONRESOURCES.RESX" datatype="resx" />
+      <group id="NCRUNCHTEMP_A86261D3-2DCC-4C06-8BD8-236C9227A277/PLATFORMS/UWPRESOURCES.RESX" datatype="resx" />
     </body>
   </file>
-  <file datatype="xml" source-language="de" target-language="es" original="LOCALIZATION/PLATFORMS/UWPRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+  <file datatype="xml" source-language="de" target-language="es" original="NCRUNCHTEMP_A86261D3-2DCC-4C06-8BD8-236C9227A277/PLATFORMS/IOSRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
       <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
     </header>
     <body>
-      <group id="LOCALIZATION/PLATFORMS/UWPRESOURCES.RESX" datatype="resx" />
+      <group id="NCRUNCHTEMP_A86261D3-2DCC-4C06-8BD8-236C9227A277/PLATFORMS/IOSRESOURCES.RESX" datatype="resx" />
     </body>
   </file>
-  <file datatype="xml" source-language="de" target-language="es" original="LOCALIZATION/PLATFORMS/DROIDRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+  <file datatype="xml" source-language="de" target-language="es" original="NCRUNCHTEMP_A86261D3-2DCC-4C06-8BD8-236C9227A277/PLATFORMS/DROIDRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
       <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
     </header>
     <body>
-      <group id="LOCALIZATION/PLATFORMS/DROIDRESOURCES.RESX" datatype="resx" />
+      <group id="NCRUNCHTEMP_A86261D3-2DCC-4C06-8BD8-236C9227A277/PLATFORMS/DROIDRESOURCES.RESX" datatype="resx" />
     </body>
   </file>
-  <file datatype="xml" source-language="de" target-language="es" original="LOCALIZATION/PLATFORMS/IOSRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
+  <file datatype="xml" source-language="de" target-language="es" original="NCRUNCHTEMP_A86261D3-2DCC-4C06-8BD8-236C9227A277/COMMONRESOURCES.RESX" tool-id="MultilingualAppToolkit" product-name="n/a" product-version="n/a" build-num="n/a">
     <header>
       <tool tool-id="MultilingualAppToolkit" tool-name="Multilingual App Toolkit" tool-version="4.0.1605.0" tool-company="Microsoft" />
     </header>
     <body>
-      <group id="LOCALIZATION/PLATFORMS/IOSRESOURCES.RESX" datatype="resx" />
+      <group id="NCRUNCHTEMP_A86261D3-2DCC-4C06-8BD8-236C9227A277/COMMONRESOURCES.RESX" datatype="resx" />
     </body>
   </file>
 </xliff>

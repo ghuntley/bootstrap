@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ReactiveSearch.Localization {
+namespace Localization {
     using System;
     using System.Reflection;
     

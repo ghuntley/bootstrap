@@ -6,6 +6,7 @@ using System.Reactive.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using ReactiveSearch.Services.Api;
+using ReactiveSearch.Services.Search;
 using ReactiveSearch.Services.State;
 using ReactiveSearch.Utility;
 using ReactiveUI;
@@ -15,16 +16,12 @@ namespace ReactiveSearch.ViewModels
 {
     public class SearchViewModel : ReactiveObject
     {
-        private readonly IStateService _stateService;
-        private readonly IDuckDuckGoApiService _duckDuckGoApiService;
+        private readonly ISearchService _searchService;
 
-        public SearchViewModel(IDuckDuckGoApiService duckDuckGoApiService, IStateService stateService)
+        public SearchViewModel(ISearchService searchService)
         {
-            Ensure.ArgumentNotNull(duckDuckGoApiService, nameof(duckDuckGoApiService));
-            Ensure.ArgumentNotNull(stateService, nameof(stateService));
-
-            _duckDuckGoApiService = duckDuckGoApiService;
-            _stateService = stateService;
+            Ensure.ArgumentNotNull(searchService, nameof(searchService));
+            _searchService = searchService;
 
             SearchResults = new ReactiveList<Unit>();
 
@@ -72,6 +69,8 @@ namespace ReactiveSearch.ViewModels
         public string SearchQuery { get; set; }
 
         public ReactiveCommand<Unit> Search { get; private set; }
+
+        public ReactiveCommand<Unit> OpenWebBrowser { get; private set; }
 
         public ReactiveList<Unit> SearchResults { get; private set; }
     }
