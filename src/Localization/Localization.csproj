@@ -39,300 +39,370 @@
     <MultilingualFallbackLanguage>en</MultilingualFallbackLanguage>
   </PropertyGroup>
   <ItemGroup>
-    <!-- A reference to the entire .NET Framework is automatically included -->
-    <EmbeddedResource Include="Application.de.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Application.de.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Application.es.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Application.es.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Application.fr.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Application.fr.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Application.hi.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Application.hi.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Application.ja.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Application.ja.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Application.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Application.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Application.ru.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Application.ru.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Application.zh-Hans.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Application.zh-Hans.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Droid.de.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Droid.de.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Droid.es.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Droid.es.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Droid.fr.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Droid.fr.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Droid.hi.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Droid.hi.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Droid.ja.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Droid.ja.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Droid.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>Droid.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Droid.ru.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Droid.ru.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Droid.zh-Hans.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Droid.zh-Hans.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="iOS.de.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>iOS.de.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="iOS.es.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>iOS.es.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="iOS.fr.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>iOS.fr.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="iOS.hi.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>iOS.hi.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="iOS.ja.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>iOS.ja.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="iOS.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>iOS.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="iOS.ru.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>iOS.ru.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="iOS.zh-Hans.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>iOS.zh-Hans.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UWP.de.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>UWP.de.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UWP.es.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>UWP.es.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UWP.fr.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>UWP.fr.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UWP.hi.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>UWP.hi.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UWP.ja.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>UWP.ja.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UWP.resx">
-      <Generator>PublicResXFileCodeGenerator</Generator>
-      <LastGenOutput>UWP.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UWP.ru.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>UWP.ru.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="UWP.zh-Hans.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>UWP.zh-Hans.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Application.de.Designer.cs">
+    <Compile Include="CommonResources.de.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Application.de.resx</DependentUpon>
+      <DependentUpon>CommonResources.de.resx</DependentUpon>
     </Compile>
-    <Compile Include="Application.Designer.cs">
+    <Compile Include="CommonResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Application.resx</DependentUpon>
+      <DependentUpon>CommonResources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Application.es.Designer.cs">
+    <Compile Include="CommonResources.es.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Application.es.resx</DependentUpon>
+      <DependentUpon>CommonResources.es.resx</DependentUpon>
     </Compile>
-    <Compile Include="Application.fr.Designer.cs">
+    <Compile Include="CommonResources.fr.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Application.fr.resx</DependentUpon>
+      <DependentUpon>CommonResources.fr.resx</DependentUpon>
     </Compile>
-    <Compile Include="Application.hi.Designer.cs">
+    <Compile Include="CommonResources.hi.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Application.hi.resx</DependentUpon>
+      <DependentUpon>CommonResources.hi.resx</DependentUpon>
     </Compile>
-    <Compile Include="Application.ja.Designer.cs">
+    <Compile Include="CommonResources.ja.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Application.ja.resx</DependentUpon>
+      <DependentUpon>CommonResources.ja.resx</DependentUpon>
     </Compile>
-    <Compile Include="Application.ru.Designer.cs">
+    <Compile Include="CommonResources.ru.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Application.ru.resx</DependentUpon>
+      <DependentUpon>CommonResources.ru.resx</DependentUpon>
     </Compile>
-    <Compile Include="Application.zh-Hans.Designer.cs">
+    <Compile Include="CommonResources.zh-Hans.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Application.zh-Hans.resx</DependentUpon>
+      <DependentUpon>CommonResources.zh-Hans.resx</DependentUpon>
     </Compile>
-    <Compile Include="Droid.de.Designer.cs">
+    <Compile Include="Platforms\DroidResources.de.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Droid.de.resx</DependentUpon>
+      <DependentUpon>DroidResources.de.resx</DependentUpon>
     </Compile>
-    <Compile Include="Droid.Designer.cs">
+    <Compile Include="Platforms\DroidResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Droid.resx</DependentUpon>
+      <DependentUpon>DroidResources.resx</DependentUpon>
     </Compile>
-    <Compile Include="Droid.es.Designer.cs">
+    <Compile Include="Platforms\DroidResources.es.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Droid.es.resx</DependentUpon>
+      <DependentUpon>DroidResources.es.resx</DependentUpon>
     </Compile>
-    <Compile Include="Droid.fr.Designer.cs">
+    <Compile Include="Platforms\DroidResources.fr.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Droid.fr.resx</DependentUpon>
+      <DependentUpon>DroidResources.fr.resx</DependentUpon>
     </Compile>
-    <Compile Include="Droid.hi.Designer.cs">
+    <Compile Include="Platforms\DroidResources.hi.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Droid.hi.resx</DependentUpon>
+      <DependentUpon>DroidResources.hi.resx</DependentUpon>
     </Compile>
-    <Compile Include="Droid.ja.Designer.cs">
+    <Compile Include="Platforms\DroidResources.ja.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Droid.ja.resx</DependentUpon>
+      <DependentUpon>DroidResources.ja.resx</DependentUpon>
     </Compile>
-    <Compile Include="Droid.ru.Designer.cs">
+    <Compile Include="Platforms\DroidResources.ru.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Droid.ru.resx</DependentUpon>
+      <DependentUpon>DroidResources.ru.resx</DependentUpon>
     </Compile>
-    <Compile Include="Droid.zh-Hans.Designer.cs">
+    <Compile Include="Platforms\DroidResources.zh-Hans.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Droid.zh-Hans.resx</DependentUpon>
+      <DependentUpon>DroidResources.zh-Hans.resx</DependentUpon>
     </Compile>
-    <Compile Include="iOS.de.Designer.cs">
+    <Compile Include="Platforms\iOSResources.de.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>iOS.de.resx</DependentUpon>
+      <DependentUpon>iOSResources.de.resx</DependentUpon>
     </Compile>
-    <Compile Include="iOS.Designer.cs">
+    <Compile Include="Platforms\iOSResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>iOS.resx</DependentUpon>
+      <DependentUpon>iOSResources.resx</DependentUpon>
     </Compile>
-    <Compile Include="iOS.es.Designer.cs">
+    <Compile Include="Platforms\iOSResources.es.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>iOS.es.resx</DependentUpon>
+      <DependentUpon>iOSResources.es.resx</DependentUpon>
     </Compile>
-    <Compile Include="iOS.fr.Designer.cs">
+    <Compile Include="Platforms\iOSResources.fr.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>iOS.fr.resx</DependentUpon>
+      <DependentUpon>iOSResources.fr.resx</DependentUpon>
     </Compile>
-    <Compile Include="iOS.hi.Designer.cs">
+    <Compile Include="Platforms\iOSResources.hi.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>iOS.hi.resx</DependentUpon>
+      <DependentUpon>iOSResources.hi.resx</DependentUpon>
     </Compile>
-    <Compile Include="iOS.ja.Designer.cs">
+    <Compile Include="Platforms\iOSResources.ja.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>iOS.ja.resx</DependentUpon>
+      <DependentUpon>iOSResources.ja.resx</DependentUpon>
     </Compile>
-    <Compile Include="iOS.ru.Designer.cs">
+    <Compile Include="Platforms\iOSResources.ru.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>iOS.ru.resx</DependentUpon>
+      <DependentUpon>iOSResources.ru.resx</DependentUpon>
     </Compile>
-    <Compile Include="iOS.zh-Hans.Designer.cs">
+    <Compile Include="Platforms\iOSResources.zh-Hans.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>iOS.zh-Hans.resx</DependentUpon>
+      <DependentUpon>iOSResources.zh-Hans.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Platforms\UWPResources.de.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UWPResources.de.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Platforms\UWPResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UWPResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Platforms\UWPResources.es.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UWPResources.es.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Platforms\UWPResources.fr.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UWPResources.fr.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Platforms\UWPResources.hi.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UWPResources.hi.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Platforms\UWPResources.ja.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UWPResources.ja.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Platforms\UWPResources.ru.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UWPResources.ru.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Platforms\UWPResources.zh-Hans.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UWPResources.zh-Hans.resx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UWP.de.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModelResources.de.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>UWP.de.resx</DependentUpon>
+      <DependentUpon>SearchViewModelResources.de.resx</DependentUpon>
     </Compile>
-    <Compile Include="UWP.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModelResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>UWP.resx</DependentUpon>
+      <DependentUpon>SearchViewModelResources.resx</DependentUpon>
     </Compile>
-    <Compile Include="UWP.es.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModelResources.es.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>UWP.es.resx</DependentUpon>
+      <DependentUpon>SearchViewModelResources.es.resx</DependentUpon>
     </Compile>
-    <Compile Include="UWP.fr.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModelResources.fr.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>UWP.fr.resx</DependentUpon>
+      <DependentUpon>SearchViewModelResources.fr.resx</DependentUpon>
     </Compile>
-    <Compile Include="UWP.hi.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModelResources.hi.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>UWP.hi.resx</DependentUpon>
+      <DependentUpon>SearchViewModelResources.hi.resx</DependentUpon>
     </Compile>
-    <Compile Include="UWP.ja.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModelResources.ja.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>UWP.ja.resx</DependentUpon>
+      <DependentUpon>SearchViewModelResources.ja.resx</DependentUpon>
     </Compile>
-    <Compile Include="UWP.ru.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModelResources.ru.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>UWP.ru.resx</DependentUpon>
+      <DependentUpon>SearchViewModelResources.ru.resx</DependentUpon>
     </Compile>
-    <Compile Include="UWP.zh-Hans.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModelResources.zh-Hans.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>UWP.zh-Hans.resx</DependentUpon>
+      <DependentUpon>SearchViewModelResources.zh-Hans.resx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <EmbeddedResource Include="CommonResources.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonResources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonResources.es.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonResources.es.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonResources.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonResources.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonResources.hi.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonResources.hi.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonResources.ja.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonResources.ja.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonResources.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonResources.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CommonResources.zh-Hans.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CommonResources.zh-Hans.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\DroidResources.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DroidResources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\DroidResources.es.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DroidResources.es.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\DroidResources.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DroidResources.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\DroidResources.hi.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DroidResources.hi.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\DroidResources.ja.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DroidResources.ja.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\DroidResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>DroidResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\DroidResources.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DroidResources.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\DroidResources.zh-Hans.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>DroidResources.zh-Hans.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\iOSResources.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>iOSResources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\iOSResources.es.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>iOSResources.es.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\iOSResources.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>iOSResources.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\iOSResources.hi.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>iOSResources.hi.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\iOSResources.ja.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>iOSResources.ja.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\iOSResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>iOSResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\iOSResources.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>iOSResources.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\iOSResources.zh-Hans.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>iOSResources.zh-Hans.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\UWPResources.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UWPResources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\UWPResources.es.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UWPResources.es.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\UWPResources.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UWPResources.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\UWPResources.hi.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UWPResources.hi.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\UWPResources.ja.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UWPResources.ja.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\UWPResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>UWPResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\UWPResources.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UWPResources.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Platforms\UWPResources.zh-Hans.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UWPResources.zh-Hans.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\SearchViewModelResources.de.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SearchViewModelResources.de.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\SearchViewModelResources.es.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SearchViewModelResources.es.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\SearchViewModelResources.fr.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SearchViewModelResources.fr.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\SearchViewModelResources.hi.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SearchViewModelResources.hi.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\SearchViewModelResources.ja.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SearchViewModelResources.ja.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\SearchViewModelResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>SearchViewModelResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\SearchViewModelResources.ru.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SearchViewModelResources.ru.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewModels\SearchViewModelResources.zh-Hans.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SearchViewModelResources.zh-Hans.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
   <ItemGroup>
     <XliffResource Include="MultilingualResources\Localization.de.xlf" />
     <XliffResource Include="MultilingualResources\Localization.es.xlf" />
