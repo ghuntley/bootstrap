@@ -17,8 +17,8 @@ namespace ReactiveSearch.ViewModels
 {
     public class SearchViewModel : ReactiveObject
     {
-        private readonly ISearchService _searchService;
         private readonly INetworkConnectivityService _networkConnectivityService;
+        private readonly ISearchService _searchService;
 
         public SearchViewModel(INetworkConnectivityService networkConnectivityService, ISearchService searchService)
         {
@@ -28,7 +28,7 @@ namespace ReactiveSearch.ViewModels
             _networkConnectivityService = networkConnectivityService;
             _searchService = searchService;
 
-            SearchResults = new ReactiveList<Unit>();
+            SearchResults = new ReactiveList<DuckDuckGoSearchResult>();
 
             // Here we're describing here, in a *declarative way*, the conditions in
             // which the Search command is enabled.  Now our Command IsEnabled is
@@ -40,10 +40,7 @@ namespace ReactiveSearch.ViewModels
             // guarantees that this block will only run exactly once at a time, and
             // that the CanExecute will auto-disable and that property IsExecuting will
             // be set according whilst it is running.
-            Search = ReactiveCommand.CreateAsyncTask(canSearch, async _ =>
-            {
-                //return await searchService.Search(SearchQuery);
-            });
+            Search = ReactiveCommand.CreateAsyncObservable(canSearch, x => _searchService.Search(SearchQuery));
 
             // ReactiveCommands are themselves IObservables, whose value are the results
             // from the async method, guaranteed to arrive on the UI thread. We're going
@@ -51,8 +48,8 @@ namespace ReactiveSearch.ViewModels
             // and them into our SearchResults.
             Search.Subscribe(results =>
             {
-                //SearchResults.Clear();
-                //SearchResults.AddRange(results);
+                SearchResults.Clear();
+                SearchResults.AddRange(results);
             });
 
             // ThrownExceptions is any exception thrown from the CreateAsyncTask piped
@@ -60,7 +57,7 @@ namespace ReactiveSearch.ViewModels
             // the UI thread.
             Search.ThrownExceptions
                 .Subscribe(ex => {
-                                     UserError.Throw("Potential Network Connectivity Error", ex);
+                    UserError.Throw("Potential Network Connectivity Error", ex);
                 });
 
             // Whenever the Search query changes, we're going to wait for one second
@@ -73,10 +70,10 @@ namespace ReactiveSearch.ViewModels
         [Reactive]
         public string SearchQuery { get; set; }
 
-        public ReactiveCommand<Unit> Search { get; private set; }
+        public ReactiveCommand<IEnumerable<DuckDuckGoSearchResult>> Search { get; private set; }
 
         public ReactiveCommand<Unit> OpenWebBrowser { get; private set; }
 
-        public ReactiveList<Unit> SearchResults { get; private set; }
+        public ReactiveList<DuckDuckGoSearchResult> SearchResults { get; private set; }
     }
 }

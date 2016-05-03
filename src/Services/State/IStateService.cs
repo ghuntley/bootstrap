@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Reactive;
+using System.Threading.Tasks;
 
 namespace ReactiveSearch.Services.State
 {
@@ -9,6 +10,18 @@ namespace ReactiveSearch.Services.State
     {
         IObservable<T> Get<T>(string key);
 
+        /// <summary>
+        ///     Immediately return a cached version of an object if available, but *always* also execute fetchFunc to retrieve the
+        ///     latest version of an object.
+        /// </summary>
+        IObservable<T> GetAndFetchLatest<T>(string key, Func<Task<T>> fetchFunc,
+            Func<DateTimeOffset, bool> fetchPredicate = null, DateTimeOffset? absoluteExpiration = null);
+
+        /// <summary>
+        ///     Attempt to return an object from the cache. If the item doesn't exist or returns an error, call a Func to return
+        ///     the latest version of an object and insert the result in the cache.
+        /// </summary>
+        IObservable<T> GetOrFetch<T>(string key, Func<Task<T>> fetchFunc, DateTimeOffset? absoluteExpiration = null);
         IObservable<Unit> Invalidate(string key);
 
         IDisposable RegisterSaveCallback(SaveCallback saveCallback);

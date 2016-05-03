@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Reactive;
 
 namespace ReactiveSearch.Services.Api
 {
@@ -52,7 +53,7 @@ namespace ReactiveSearch.Services.Api
     /// <summary>
     /// Overal results from query 
     /// </summary>
-    public class DuckDuckGoSearchResult
+    public class DuckDuckGoSearchResult 
     {
         /// <summary>
         /// Topic summary containing HTML

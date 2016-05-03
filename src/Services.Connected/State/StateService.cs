@@ -5,11 +5,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Reactive;
 using System.Reactive.Linq;
-
+using System.Threading.Tasks;
 using Akavache;
-
 using Anotar.Splat;
-
 using ReactiveSearch.Services.State;
 using ReactiveSearch.Utility;
 
@@ -37,6 +35,27 @@ namespace ReactiveSearch.Services.Connected.State
 
             return _blobCache
                 .GetObject<T>(key);
+        }
+
+        public IObservable<T> GetOrFetch<T>(string key, Func<Task<T>> fetchFunc,
+            DateTimeOffset? absoluteExpiration = null)
+        {
+            Ensure.ArgumentNotNull(key, nameof(key));
+            Ensure.ArgumentNotNull(fetchFunc, nameof(fetchFunc));
+
+            return _blobCache
+                .GetOrFetchObject(key, fetchFunc, absoluteExpiration);
+        }
+
+        public IObservable<T> GetAndFetchLatest<T>(string key, Func<Task<T>> fetchFunc,
+            Func<DateTimeOffset, bool> fetchPredicate = null,
+            DateTimeOffset? absoluteExpiration = null)
+        {
+            Ensure.ArgumentNotNull(key, nameof(key));
+            Ensure.ArgumentNotNull(fetchFunc, nameof(fetchFunc));
+
+            return _blobCache
+                .GetAndFetchLatest(key, fetchFunc, fetchPredicate, absoluteExpiration);
         }
 
         public IObservable<Unit> Invalidate(string key)
