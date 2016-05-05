@@ -35,6 +35,7 @@
   <ItemGroup>
     <Compile Include="AkavacheSqliteLinkerOverride.cs" />
     <Compile Include="BuilderExtensions.cs" />
+    <Compile Include="Core\BlobCacheKeysFixtures.cs" />
     <Compile Include="IBuilder.cs" />
     <Compile Include="Mocks.g.cs">
       <AutoGen>True</AutoGen>
@@ -53,6 +54,10 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{cc553fd5-ec23-4336-ac53-9e73e79f66fa}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Utility\Utility.csproj">
       <Project>{A76DC2A7-724C-4DA9-8358-DFA012726FF8}</Project>
       <Name>Utility</Name>

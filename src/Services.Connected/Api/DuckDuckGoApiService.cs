@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net.Http;
 using Fusillade;
+using HttpClientDiagnostics;
 using ModernHttpClient;
 using ReactiveSearch.Services.Api;
 using Refit;
@@ -9,21 +10,22 @@ namespace ReactiveSearch.Services.Connected.Api
 {
     public class DuckDuckGoApiService : IDuckDuckGoApiService
     {
-        public const string ApiBaseAddress = "https://api.duckduckgo.com";
+        private const string DefaultApiBaseAddress = "https://api.duckduckgo.com";
 
         private readonly Lazy<IDuckDuckGoApi> _background;
         private readonly Lazy<IDuckDuckGoApi> _speculative;
         private readonly Lazy<IDuckDuckGoApi> _userInitiated;
 
-        public DuckDuckGoApiService(string apiBaseAddress = null)
+        public DuckDuckGoApiService(string apiBaseAddress = null, bool enableDiagnostics = false)
         {
-            Func<HttpMessageHandler, IDuckDuckGoApi> createClient = messageHandler =>
+            Func<HttpMessageHandler, IDuckDuckGoApi> createClient = innerHandler =>
             {
-                var client = new HttpClient(messageHandler)
-                {
-                    BaseAddress = new Uri(apiBaseAddress ?? ApiBaseAddress)
-                };
+                var handler = enableDiagnostics ? new HttpClientDiagnosticsHandler(innerHandler) : innerHandler;
 
+                var client = new HttpClient(handler)
+                {
+                    BaseAddress = new Uri(apiBaseAddress ?? DefaultApiBaseAddress)
+                };
                 return RestService.For<IDuckDuckGoApi>(client);
             };
 

@@ -200,42 +200,42 @@
       <DependentUpon>UWPResources.zh-Hans.resx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ViewModels\SearchViewModelResources.de.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModel\SearchViewModelResources.de.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SearchViewModelResources.de.resx</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\SearchViewModelResources.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModel\SearchViewModelResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SearchViewModelResources.resx</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\SearchViewModelResources.es.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModel\SearchViewModelResources.es.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SearchViewModelResources.es.resx</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\SearchViewModelResources.fr.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModel\SearchViewModelResources.fr.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SearchViewModelResources.fr.resx</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\SearchViewModelResources.hi.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModel\SearchViewModelResources.hi.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SearchViewModelResources.hi.resx</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\SearchViewModelResources.ja.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModel\SearchViewModelResources.ja.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SearchViewModelResources.ja.resx</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\SearchViewModelResources.ru.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModel\SearchViewModelResources.ru.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SearchViewModelResources.ru.resx</DependentUpon>
     </Compile>
-    <Compile Include="ViewModels\SearchViewModelResources.zh-Hans.Designer.cs">
+    <Compile Include="ViewModels\SearchViewModel\SearchViewModelResources.zh-Hans.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SearchViewModelResources.zh-Hans.resx</DependentUpon>
@@ -245,162 +245,202 @@
     <EmbeddedResource Include="CommonResources.de.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CommonResources.de.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="CommonResources.es.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CommonResources.es.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="CommonResources.fr.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CommonResources.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="CommonResources.hi.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CommonResources.hi.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="CommonResources.ja.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CommonResources.ja.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="CommonResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>CommonResources.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="CommonResources.ru.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CommonResources.ru.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="CommonResources.zh-Hans.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>CommonResources.zh-Hans.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\DroidResources.de.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>DroidResources.de.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\DroidResources.es.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>DroidResources.es.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\DroidResources.fr.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>DroidResources.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\DroidResources.hi.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>DroidResources.hi.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\DroidResources.ja.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>DroidResources.ja.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\DroidResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>DroidResources.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\DroidResources.ru.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>DroidResources.ru.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\DroidResources.zh-Hans.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>DroidResources.zh-Hans.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\iOSResources.de.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>iOSResources.de.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\iOSResources.es.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>iOSResources.es.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\iOSResources.fr.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>iOSResources.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\iOSResources.hi.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>iOSResources.hi.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\iOSResources.ja.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>iOSResources.ja.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\iOSResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>iOSResources.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\iOSResources.ru.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>iOSResources.ru.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\iOSResources.zh-Hans.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>iOSResources.zh-Hans.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\UWPResources.de.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>UWPResources.de.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\UWPResources.es.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>UWPResources.es.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\UWPResources.fr.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>UWPResources.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\UWPResources.hi.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>UWPResources.hi.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\UWPResources.ja.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>UWPResources.ja.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\UWPResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>UWPResources.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\UWPResources.ru.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>UWPResources.ru.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
     <EmbeddedResource Include="Platforms\UWPResources.zh-Hans.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>UWPResources.zh-Hans.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewModels\SearchViewModelResources.de.resx">
+    <EmbeddedResource Include="ViewModels\SearchViewModel\SearchViewModelResources.de.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SearchViewModelResources.de.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewModels\SearchViewModelResources.es.resx">
+    <EmbeddedResource Include="ViewModels\SearchViewModel\SearchViewModelResources.es.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SearchViewModelResources.es.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewModels\SearchViewModelResources.fr.resx">
+    <EmbeddedResource Include="ViewModels\SearchViewModel\SearchViewModelResources.fr.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SearchViewModelResources.fr.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewModels\SearchViewModelResources.hi.resx">
+    <EmbeddedResource Include="ViewModels\SearchViewModel\SearchViewModelResources.hi.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SearchViewModelResources.hi.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewModels\SearchViewModelResources.ja.resx">
+    <EmbeddedResource Include="ViewModels\SearchViewModel\SearchViewModelResources.ja.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SearchViewModelResources.ja.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewModels\SearchViewModelResources.resx">
+    <EmbeddedResource Include="ViewModels\SearchViewModel\SearchViewModelResources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SearchViewModelResources.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewModels\SearchViewModelResources.ru.resx">
+    <EmbeddedResource Include="ViewModels\SearchViewModel\SearchViewModelResources.ru.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SearchViewModelResources.ru.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
-    <EmbeddedResource Include="ViewModels\SearchViewModelResources.zh-Hans.resx">
+    <EmbeddedResource Include="ViewModels\SearchViewModel\SearchViewModelResources.zh-Hans.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>SearchViewModelResources.zh-Hans.Designer.cs</LastGenOutput>
+      <CustomToolNamespace>Localization</CustomToolNamespace>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -411,6 +451,9 @@
     <XliffResource Include="MultilingualResources\Localization.ja.xlf" />
     <XliffResource Include="MultilingualResources\Localization.ru.xlf" />
     <XliffResource Include="MultilingualResources\Localization.zh-Hans.xlf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets" Label="MultilingualAppToolkit" Condition="Exists('$(MSBuildExtensionsPath)\Microsoft\Multilingual App Toolkit\Microsoft.Multilingual.ResxResources.targets')" />
