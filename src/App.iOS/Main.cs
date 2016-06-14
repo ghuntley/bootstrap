@@ -1,6 +1,6 @@
 ﻿using UIKit;
 
-namespace App.iOS
+namespace ReactiveSearch.App.iOS
 {
     public class Application
     {

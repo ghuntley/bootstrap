@@ -3,9 +3,9 @@ using ReactiveUI;
 
 namespace ReactiveSearch.App.UWP.Views
 {
-    public sealed partial class SearchView : IViewFor<SearchViewModel>
+    public sealed partial class SearchResultView : IViewFor<SearchResultViewModel>
     {
-        public SearchView()
+        public SearchResultView()
         {
             this.InitializeComponent();
 
@@ -18,9 +18,9 @@ namespace ReactiveSearch.App.UWP.Views
         object IViewFor.ViewModel
         {
             get { return ViewModel; }
-            set { ViewModel = (SearchViewModel)value; }
+            set { ViewModel = (SearchResultViewModel)value; }
         }
 
-        public SearchViewModel ViewModel { get; set; }
+        public SearchResultViewModel ViewModel { get; set; }
     }
 }

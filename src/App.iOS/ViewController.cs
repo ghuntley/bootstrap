@@ -1,8 +1,7 @@
 ﻿using System;
-
 using UIKit;
 
-namespace App.iOS
+namespace ReactiveSearch.App.iOS
 {
     public partial class ViewController : UIViewController
     {

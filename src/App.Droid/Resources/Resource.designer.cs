@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("App.Droid.Resource", IsApplication=true)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("ReactiveSearch.App.Droid.Resource", IsApplication=true)]
 
-namespace App.Droid
+namespace ReactiveSearch.App.Droid
 {
 	
 	
@@ -26,8 +26,8 @@ namespace App.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::ModernHttpClient.Resource.String.library_name = global::App.Droid.Resource.String.library_name;
-			global::Splat.Resource.String.library_name = global::App.Droid.Resource.String.library_name;
+			global::ModernHttpClient.Resource.String.library_name = global::ReactiveSearch.App.Droid.Resource.String.library_name;
+			global::Splat.Resource.String.library_name = global::ReactiveSearch.App.Droid.Resource.String.library_name;
 		}
 		
 		public partial class Attribute

@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using ReactiveSearch.App;
-using ReactiveSearch.Services.iOS.Logging;
+﻿using ReactiveSearch.Services.iOS.Logging;
 using Splat;
 
-namespace ReactiveSearch.iOS
+namespace ReactiveSearch.App.iOS
 {
     public sealed class iOSCompositionRoot : CompositionRoot
     {

@@ -6,7 +6,7 @@
 
 using Foundation;
 
-namespace App.iOS
+namespace ReactiveSearch.App.iOS
 {
     [Register("ViewController")]
     partial class ViewController

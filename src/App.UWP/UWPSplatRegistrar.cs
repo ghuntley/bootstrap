@@ -1,8 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using ReactiveSearch.App;
 using Splat;
 
-namespace ReactiveSearch.App.iOS
+namespace App.UWP
 {
-    public sealed class iOSSplatRegistrar : SplatRegistrar
+    public class UWPSplatRegistrar : SplatRegistrar
     {
         protected override void RegisterPlatformComponents(IMutableDependencyResolver splatLocator, CompositionRoot compositionRoot)
         {
@@ -11,6 +17,7 @@ namespace ReactiveSearch.App.iOS
 
         protected override void RegisterViews(IMutableDependencyResolver splatLocator)
         {
+            throw new NotImplementedException();
         }
     }
 }
