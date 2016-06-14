@@ -60,11 +60,14 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="..\CommonAssemblyInfo.cs" />
-    <Compile Include="Api\ApiResponsesDisconnected.Designer.cs">
+    <Compile Include="Api\DuckDuckGoApiDisconnectedResponses.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>ApiResponsesDisconnected.resx</DependentUpon>
+      <DependentUpon>DuckDuckGoApiDisconnectedResponses.resx</DependentUpon>
     </Compile>
+    <Compile Include="Api\DuckDuckGoApiDisconnected.cs" />
+    <Compile Include="Api\DuckDuckGoApiServiceDisconnected.cs" />
+    <Compile Include="ObservableExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <Import Project="..\packages\Fody.1.29.2\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.2\build\portable-net+sl+win+wpa+wp\Fody.targets')" />
@@ -73,13 +76,22 @@
       <Project>{41A3AF92-317A-4EA3-B048-5F6FD8D66944}</Project>
       <Name>Services</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{a76dc2a7-724c-4da9-8358-dfa012726ff8}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <None Include="app.config" />
     <None Include="README.md" />
     <None Include="FodyWeavers.xml" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="ReactiveUI, Version=6.5.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\reactiveui-core.6.5.0\lib\Portable-Net45+Win8+WP8+WPA81\ReactiveUI.dll</HintPath>
       <Private>True</Private>
@@ -108,9 +120,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Api\ApiResponsesDisconnected.resx">
+    <EmbeddedResource Include="Api\DuckDuckGoApiDisconnectedResponses.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>ApiResponsesDisconnected.Designer.cs</LastGenOutput>
+      <LastGenOutput>DuckDuckGoApiDisconnectedResponses.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets')" />

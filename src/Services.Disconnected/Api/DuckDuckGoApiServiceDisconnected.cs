@@ -14,7 +14,6 @@ namespace ReactiveSearch.Services.Disconnected.Api
         public DuckDuckGoApiServiceDisconnected(bool includeRandomDelays, bool includeRandomErrors)
         {
             _duckDuckGoApi = new DuckDuckGoApiDisconnected(includeRandomDelays, includeRandomErrors);
-            
         }
 
         public IDuckDuckGoApi Background => _duckDuckGoApi;

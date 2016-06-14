@@ -61,7 +61,6 @@
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Api\DuckDuckGoApiService.cs" />
     <Compile Include="Api\DuckDuckGoServiceModel.cs" />
     <Compile Include="Api\IDuckDuckGoApi.cs" />
     <Compile Include="Api\IDuckDuckGoApiService.cs" />
@@ -127,6 +126,12 @@
     <Reference Include="Anotar.Splat">
       <HintPath>..\packages\Anotar.Splat.Fody.3.0.1\Lib\Anotar.Splat.dll</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utility\Utility.csproj">
+      <Project>{a76dc2a7-724c-4da9-8358-dfa012726ff8}</Project>
+      <Name>Utility</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets" Condition="Exists('..\packages\Fody.1.29.4\build\portable-net+sl+win+wpa+wp\Fody.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

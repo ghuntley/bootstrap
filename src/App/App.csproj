@@ -75,6 +75,10 @@
       <Project>{30f3a58d-e524-4899-96d3-5f4b9beb8bf5}</Project>
       <Name>Services.Connected</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Services.Disconnected\Services.Disconnected.csproj">
+      <Project>{626e6afc-b884-4555-bfd9-1a76b3852a55}</Project>
+      <Name>Services.Disconnected</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Services\Services.csproj">
       <Project>{41a3af92-317a-4ea3-b048-5f6fd8d66944}</Project>
       <Name>Services</Name>
