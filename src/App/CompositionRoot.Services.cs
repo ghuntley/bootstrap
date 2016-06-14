@@ -9,6 +9,7 @@ using ReactiveSearch.Services.Connected.Api;
 using ReactiveSearch.Services.Connected.NetworkConnectivity;
 using ReactiveSearch.Services.Connected.Search;
 using ReactiveSearch.Services.Connected.State;
+using ReactiveSearch.Services.Disconnected.Api;
 using ReactiveSearch.Services.NetworkConnectivity;
 using ReactiveSearch.Services.Search;
 using ReactiveSearch.Services.State;
@@ -34,7 +35,22 @@ namespace ReactiveSearch.App
 
         private IBlobCache CreateBlobCache() => BlobCache.LocalMachine;
 
+#if (DISCONNECTED || DISCONNECTED_ERRORS || DISCONNECTED_FAST)
+        private IDuckDuckGoApiService CreateDuckDuckGoApiService() => new DuckDuckGoApiServiceDisconnected(
+#if DISCONNECTED_FAST
+            includeRandomDelays: false,
+#else
+            includeRandomDelays: true,
+#endif
+#if DISCONNECTED_ERRORS
+            includeRandomErrors: true
+#else
+            includeRandomErrors: false
+#endif        
+        );
+#else
         private IDuckDuckGoApiService CreateDuckDuckGoApiService() => new DuckDuckGoApiService();
+#endif
 
         private INetworkConnectivityService CreateNetworkConnectivityService() => new NetworkConnectivityService();
 

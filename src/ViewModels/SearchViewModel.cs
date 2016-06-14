@@ -49,7 +49,7 @@ namespace ReactiveSearch.ViewModels
             Search.Subscribe(results =>
             {
                 SearchResults.Clear();
-                SearchResults.AddRange(results);
+                //SearchResults.AddRange(results);
             });
 
             // ThrownExceptions is any exception thrown from the CreateAsyncTask piped
@@ -70,7 +70,7 @@ namespace ReactiveSearch.ViewModels
         [Reactive]
         public string SearchQuery { get; set; }
 
-        public ReactiveCommand<IEnumerable<DuckDuckGoSearchResult>> Search { get; private set; }
+        public ReactiveCommand<DuckDuckGoSearchResult> Search { get; private set; }
 
         public ReactiveCommand<Unit> OpenWebBrowser { get; private set; }
 

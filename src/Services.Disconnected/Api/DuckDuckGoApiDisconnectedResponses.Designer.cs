@@ -23,14 +23,14 @@ namespace ReactiveSearch.Services.Disconnected.Api {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class ApiResponsesDisconnected {
+    internal class DuckDuckGoApiDisconnectedResponses {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
         private static global::System.Globalization.CultureInfo resourceCulture;
         
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal ApiResponsesDisconnected() {
+        internal DuckDuckGoApiDisconnectedResponses() {
         }
         
         /// <summary>
@@ -40,7 +40,7 @@ namespace ReactiveSearch.Services.Disconnected.Api {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ReactiveSearch.Services.Disconnected.Api.ApiResponsesDisconnected", typeof(ApiResponsesDisconnected).GetTypeInfo().Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ReactiveSearch.Services.Disconnected.Api.DuckDuckGoApiDisconnectedResponses", typeof(DuckDuckGoApiDisconnectedResponses).GetTypeInfo().Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -58,6 +58,15 @@ namespace ReactiveSearch.Services.Disconnected.Api {
             }
             set {
                 resourceCulture = value;
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to .
+        /// </summary>
+        internal static string Search {
+            get {
+                return ResourceManager.GetString("Search", resourceCulture);
             }
         }
     }

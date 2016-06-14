@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.OS;
 using Android.Widget;
+using ReactiveSearch.App.Droid;
 
 namespace App.Droid
 {

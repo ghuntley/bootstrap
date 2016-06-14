@@ -10,6 +10,6 @@ namespace ReactiveSearch.Services.Search
 {
     public interface ISearchService
     {
-        IObservable<IEnumerable<DuckDuckGoSearchResult>> Search(string query);
+        IObservable<DuckDuckGoSearchResult> Search(string query);
     }
 }
