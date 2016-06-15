@@ -4,6 +4,7 @@ using ReactiveSearch.Services.Search;
 using ReactiveSearch.Services.State;
 using ReactiveSearch.Utility;
 using System;
+using System.Reactive;
 using System.Reactive.Linq;
 
 namespace ReactiveSearch.Services.Connected.Search

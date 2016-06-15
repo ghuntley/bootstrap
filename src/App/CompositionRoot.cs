@@ -20,8 +20,8 @@ namespace ReactiveSearch.App
     {
         protected CompositionRoot()
         {
-            _mainScheduler = new Lazy<IScheduler>(CreateMainScheduler);
-            _taskPoolScheduler = new Lazy<IScheduler>(CreateTaskPoolScheduler);
+            //_mainScheduler = new Lazy<IScheduler>(CreateMainScheduler);
+            //_taskPoolScheduler = new Lazy<IScheduler>(CreateTaskPoolScheduler);
 
             _loggingService = new Lazy<ILogger>(CreateLoggingService);
             _networkConnectivityService= new Lazy<INetworkConnectivityService>(CreateNetworkConnectivityService);
