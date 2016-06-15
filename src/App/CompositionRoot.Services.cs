@@ -38,14 +38,14 @@ namespace ReactiveSearch.App
 #if (DISCONNECTED || DISCONNECTED_ERRORS || DISCONNECTED_FAST)
         private IDuckDuckGoApiService CreateDuckDuckGoApiService() => new DuckDuckGoApiServiceDisconnected(
 #if DISCONNECTED_FAST
-            includeRandomDelays: false,
+            enableRandomDelays: false,
 #else
-            includeRandomDelays: true,
+            enableRandomDelays: true,
 #endif
 #if DISCONNECTED_ERRORS
-            includeRandomErrors: true
+            enableRandomErrors: true
 #else
-            includeRandomErrors: false
+            enableRandomErrors: false
 #endif        
         );
 #else
