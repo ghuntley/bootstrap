@@ -1,7 +1,7 @@
 ﻿{
   "dependencies": {
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
-    "reactiveui": "7.0.0.1464236131",
+    "reactiveui": "7.1.0",
     "Splat": "1.6.2",
     "Xam.Plugin.Connectivity": "2.1.2"
   },

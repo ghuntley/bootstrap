@@ -5,8 +5,8 @@
     "Microsoft.ApplicationInsights.PersistenceChannel": "1.2.3",
     "Microsoft.ApplicationInsights.WindowsApps": "1.1.1",
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.1.0",
-    "reactiveui": "7.0.0.1464236131",
-    "reactiveui-events": "7.0.0.1464236131",
+    "reactiveui": "7.1.0",
+    "reactiveui-events": "7.1.0",
     "refit": "2.4.1",
     "splat": "1.6.2"
   },

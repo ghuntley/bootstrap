@@ -100,7 +100,7 @@
       <Private>True</Private>
     </Reference>
     <Reference Include="HttpClientDiagnostics, Version=1.1.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\HttpClientDiagnostics.1.1.1.1464670512\lib\portable-net45+netcore45+win8+wpa81+wp8+UAP10+MonoAndroid403+MonoTouch10+Xamarin.iOS10\HttpClientDiagnostics.dll</HintPath>
+      <HintPath>..\packages\HttpClientDiagnostics.1.1.1.1462518862\lib\portable-net45+netcore45+win8+wpa81+wp8+UAP10+MonoAndroid403+MonoTouch10+Xamarin.iOS10\HttpClientDiagnostics.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Lager, Version=0.4.2.0, Culture=neutral, processorArchitecture=MSIL">
@@ -127,8 +127,8 @@
       <HintPath>..\packages\Punchclock.1.2.0\lib\Portable-net45+win+wpa81+wp80\Punchclock.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="ReactiveUI, Version=7.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\reactiveui-core.7.0.0.1464236131\lib\portable-net45+netcore45+wpa81+win8+wp8+UAP10+MonoAndroid403+MonoTouch10+Xamarin.iOS10\ReactiveUI.dll</HintPath>
+    <Reference Include="ReactiveUI, Version=7.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\reactiveui-core.7.1.0\lib\portable-net45+netcore45+wpa81+win8+wp8+UAP10+MonoAndroid403+MonoTouch10+Xamarin.iOS10\ReactiveUI.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Refit, Version=2.4.1.0, Culture=neutral, processorArchitecture=MSIL">
